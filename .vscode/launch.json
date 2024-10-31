@@ -1,0 +1,63 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Electron (Main Process)",
+            "program": "${workspaceFolder}/electron-app/main.js",
+            "cwd": "${workspaceFolder}/electron-app",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "windows": { "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd" },
+            "preLaunchTask": "npm: build-electron",
+            "outFiles": ["${workspaceFolder}/electron-app/**/*.js"],
+            "sourceMaps": true,
+            "protocol": "inspector"
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Angular in Chrome",
+            "url": "http://localhost:4200",
+            "webRoot": "${workspaceFolder}/angular-app",
+            "preLaunchTask": "npm: start-angular",
+            "sourceMaps": true
+        },
+        {
+            "name": "Debug C++ Renderer (Vulkan)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/cpp-renderer/build/renderer_executable",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/cpp-renderer",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "type": "nativescript",
+            "request": "launch",
+            "name": "Launch NativeScript (Android)",
+            "appRoot": "${workspaceFolder}/nativescript-app",
+            "platform": "android",
+            "sourceMaps": true,
+            "stopOnEntry": false
+        }
+    ],
+
+    "compounds": [
+        {
+            "name": "Full Project Debug (Electron + Angular)",
+            "configurations": ["Launch Electron (Main Process)", "Launch Angular in Chrome"]
+        }
+    ]
+}

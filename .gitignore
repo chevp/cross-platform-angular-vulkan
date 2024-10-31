@@ -1,0 +1,98 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Angular build output
+angular-app/dist/
+angular-app/out-tsc/
+angular-app/.angular/
+angular-app/.cache/
+angular-app/node_modules/
+
+# NativeScript build output
+nativescript-app/platforms/
+nativescript-app/hooks/
+nativescript-app/node_modules/
+nativescript-app/bin/
+nativescript-app/app/App_Resources/Android/src/
+nativescript-app/.cloud/
+nativescript-app/.nsbuildinfo
+nativescript-app/.gradle/
+nativescript-app/build/
+nativescript-app/*.apk
+nativescript-app/*.aar
+
+# C++ build output
+cpp-renderer/build/
+cpp-renderer/CMakeFiles/
+cpp-renderer/CMakeCache.txt
+cpp-renderer/Makefile
+cpp-renderer/*.o
+cpp-renderer/*.a
+cpp-renderer/*.so
+cpp-renderer/*.dll
+cpp-renderer/*.dylib
+cpp-renderer/*.exe
+
+# Electron build output
+electron-app/out/
+electron-app/build/
+electron-app/node_modules/
+electron-app/dist/
+electron-app/*.log
+electron-app/Release/
+electron-app/Debug/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build/
+Testing/
+CTestTestfile.cmake
+Makefile
+
+# Visual Studio Code workspace settings
+# .vscode/settings.json
+# .vscode/tasks.json
+# .vscode/launch.json
+# .vscode/extensions.json
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+desktop.ini
+
+# Logs and system files
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+
+# IDEs and editors
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+# *.code-workspace
+
+# Output binaries
+*.out
+*.obj
+*.lib
+*.pdb
+
+# Temporary files for debugging
+*.bak
+*.swp
+*.bak
+
+# Other temporary files
+tmp/
+temp/
+
+docs/

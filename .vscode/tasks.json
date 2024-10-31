@@ -1,0 +1,79 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "Build Angular",
+          "type": "npm",
+          "script": "build",
+          "path": "angular-app",
+          "problemMatcher": [],
+          "group": "build",
+          "detail": "Builds the Angular application in the angular-app directory"
+      },
+      {
+          "label": "Start Angular Dev Server",
+          "type": "npm",
+          "script": "start",
+          "path": "angular-app",
+          "problemMatcher": [],
+          "isBackground": true,
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "detail": "Starts Angular's development server in the angular-app directory"
+      },
+      {
+          "label": "Build C++ Renderer (Vulkan)",
+          "type": "shell",
+          "command": "cmake --build build",
+          "options": {
+              "cwd": "${workspaceFolder}/cpp-renderer"
+          },
+          "problemMatcher": ["$gcc"],
+          "group": "build",
+          "detail": "Builds the C++ Vulkan renderer using CMake in the cpp-renderer directory"
+      },
+      {
+          "label": "Build Electron",
+          "type": "npm",
+          "script": "build",
+          "path": "electron-app",
+          "problemMatcher": [],
+          "group": "build",
+          "detail": "Builds the Electron application in the electron-app directory"
+      },
+      {
+          "label": "Start Electron",
+          "type": "npm",
+          "script": "start",
+          "path": "electron-app",
+          "problemMatcher": [],
+          "isBackground": true,
+          "group": "none",
+          "detail": "Starts the Electron application in the electron-app directory"
+      },
+      {
+          "label": "Build NativeScript Android",
+          "type": "shell",
+          "command": "tns build android",
+          "options": {
+              "cwd": "${workspaceFolder}/nativescript-app"
+          },
+          "problemMatcher": [],
+          "group": "build",
+          "detail": "Builds the NativeScript application for Android"
+      },
+      {
+          "label": "Run NativeScript on Android",
+          "type": "shell",
+          "command": "tns run android",
+          "options": {
+              "cwd": "${workspaceFolder}/nativescript-app"
+          },
+          "problemMatcher": [],
+          "group": "test",
+          "detail": "Runs the NativeScript application on an Android emulator or device"
+      }
+  ]
+}

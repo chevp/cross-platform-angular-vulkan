@@ -1,0 +1,65 @@
+{
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+
+    "files.associations": {
+        "*.ts": "typescript",
+        "*.js": "javascript",
+        "*.json": "json",
+        "*.h": "cpp",
+        "*.c": "cpp"
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.preferences.importModuleSpecifier": "relative",
+
+    "eslint.alwaysShowStatus": true,
+    "eslint.enable": true,
+    "prettier.requireConfig": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
+    "cmake.configureOnOpen": true,
+
+    "nativescript.tnsPath": "nativescript",
+    "nativescript.defaultProjectPath": "${workspaceFolder}/nativescript-app",
+    "nativescript.runArguments": ["--clean"],
+
+    "javascript.validate.enable": false,
+    "typescript.validate.enable": true,
+    "eslint.workingDirectories": [
+        { "mode": "auto" }
+    ],
+    "angular.ng-template.languageService": true,
+    "angular.ng-template.compilerOptions": {
+        "strictTemplates": true
+    },
+
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"],
+    "terminal.integrated.env.linux": {
+        "CXXFLAGS": "-std=c++17"
+    },
+
+    "tasks.allowAutomaticTasks": "on",
+    "tasks.defaultShell": {
+        "windows": "cmd.exe",
+        "linux": "/bin/bash",
+        "osx": "/bin/zsh"
+    },
+
+    "extensions.ignoreRecommendations": false,
+    "path-intellisense.mappings": {
+        "@angular": "${workspaceFolder}/angular-app/src/app",
+        "@cpp": "${workspaceFolder}/cpp-renderer",
+        "@electron": "${workspaceFolder}/electron-app",
+        "@nativescript": "${workspaceFolder}/nativescript-app/app"
+    }
+}
