@@ -1,5 +1,5 @@
 
-# Cross-Platform Angular + C++ Vulkan Application
+# Cross-Platform Angular and C++ Vulkan Application
 
 This project enables cross-platform development using **Angular** for the UI, **C++ with Vulkan** for high-performance rendering, and **platform-specific integrations** using **Electron** for desktop (Windows) and **NativeScript** for Android.
 
