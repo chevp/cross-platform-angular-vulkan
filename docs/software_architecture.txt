@@ -1,0 +1,22 @@
++-------------------------+                      +-------------------------+
+|                         |                      |                         |
+|       Angular UI        |                      |       C++ Renderer      |
+|     (Electron/NativeScript)                    |         (Vulkan)        |
+|                         |                      |                         |
++-------------------------+                      +-------------------------+
+             |                                            |
+             v                                            v
++-------------------------+                      +-------------------------+
+| Electron IPC or JNI     |                      |      Rendering Logic    |
+| Communication Layer     |<-------------------->|   - Scene Loading       |
+| - Node.js Addon (Electron)                     |   - Model Management    |
+| - JNI (NativeScript)                           |   - Lighting & Shading  |
++-------------------------+                      |                         |
+             |                                   |                         |
+             v                                   +-------------------------+
++-------------------------+                      +-------------------------+
+|       Platform-Specific                         |       Communication    |
+|         Integrations                           |        Layer           |
+|  - Electron: Node.js, IPC                      |                         |
+|  - NativeScript: Java, Android APIs            +-------------------------+
++-------------------------+

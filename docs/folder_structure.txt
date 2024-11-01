@@ -1,0 +1,43 @@
+project-root/
+├── angular-app/                          # Angular application
+│   ├── src/
+│   │   ├── app/
+│   │   ├── assets/
+│   │   ├── index.html
+│   │   ├── main.ts
+│   │   └── ...
+│   └── dist/                             # Output folder for production build
+│       └── angular-app/
+│           └── index.html
+├── cpp-renderer/                         # C++ Renderer and Vulkan-related code
+│   ├── Renderer.h
+│   ├── Renderer.cpp
+│   ├── main_binding.cpp                  # Electron Node.js addon
+│   ├── RendererJNI.cpp                   # JNI binding for NativeScript on Android
+│   └── CMakeLists.txt                    # CMake build file for C++ code
+├── electron-app/                         # Electron-specific code for desktop
+│   ├── main.js                           # Main entry point for Electron
+│   ├── preload.js                        # Preload script for Electron's renderer process
+│   ├── package.json                      # Package configuration for Electron
+│   └── build/                            # Compiled native addon (.node file)
+│       └── Release/
+│           └── addon.node
+├── nativescript-app/                     # NativeScript-specific code for Android
+│   ├── app/
+│   │   ├── App_Resources/                # Android-specific resources
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/
+│   │   │   │   │       └── yourapp/
+│   │   │   │   │           ├── Renderer.java     # Java file for JNI interface
+│   │   │   │   │           └── MainActivity.java
+│   │   │   │   └── jniLibs/
+│   │   │   │       └── libcpp_renderer.so        # Compiled C++ library for JNI
+│   │   ├── renderer-service.ts                   # NativeScript JavaScript interface to C++
+│   │   ├── app.module.ts                         # NativeScript Angular module
+│   │   └── ...
+│   ├── package.json                              # NativeScript package configuration
+│   └── webpack.config.js                         # NativeScript Webpack config
+├── README.md                                     # Project documentation
+└── Angular-C++-Vulkan-Tutorial.md                # Tutorial file
