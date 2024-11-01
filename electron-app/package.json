@@ -1,0 +1,22 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && electron ."
+  },
+  "devDependencies": {
+    "@types/electron": "latest",
+    "@types/node": "latest",
+    "electron": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "electron-app": "file:"
+  }
+}

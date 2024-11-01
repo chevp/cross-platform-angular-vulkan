@@ -78,7 +78,6 @@ desktop.ini
 *.iml
 *.sublime-workspace
 *.sublime-project
-# *.code-workspace
 
 # Output binaries
 *.out
@@ -94,5 +93,3 @@ desktop.ini
 # Other temporary files
 tmp/
 temp/
-
-docs/
