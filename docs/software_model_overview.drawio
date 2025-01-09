@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="rK99TkG3CMh2tBdEFVcz" name="Page-1">
+        <mxGraphModel dx="1545" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Software Model Overview" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=4;fontFamily=Verdana;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="10" width="390" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="High-Level Design" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;shadow=0;fontFamily=Verdana;verticalAlign=top;align=left;fontSize=15;spacingLeft=7;arcSize=4;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="10" y="50" width="340" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;Waterfall Model&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;shadow=0;fontFamily=Verdana;verticalAlign=top;align=left;fontSize=15;spacingLeft=7;arcSize=4;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="590" width="670" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;Component Diagrams&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;shadow=0;fontFamily=Verdana;verticalAlign=top;align=left;fontSize=15;spacingLeft=7;arcSize=4;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="50" width="330" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;System Archtiecture&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;shadow=0;fontFamily=Verdana;verticalAlign=top;align=left;fontSize=15;spacingLeft=7;arcSize=4;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="300" width="340" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;b&gt;Data Flow Diagrams&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;shadow=0;fontFamily=Verdana;verticalAlign=top;align=left;fontSize=15;spacingLeft=7;arcSize=4;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="304" width="340" height="276" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;b&gt;Technology Stack Overview&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;shadow=0;fontFamily=Verdana;verticalAlign=top;align=left;fontSize=15;spacingLeft=7;arcSize=4;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="50" width="420" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;b&gt;Software Development Life Cycle (SDLC)&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Requirements Gathering&lt;/li&gt;&lt;li&gt;Design&lt;/li&gt;&lt;li&gt;Development and Implementation&lt;/li&gt;&lt;li&gt;Testing and QA&lt;/li&gt;&lt;li&gt;Deployment&lt;/li&gt;&lt;li&gt;Maintenance and Updates&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;shadow=0;fontFamily=Verdana;verticalAlign=top;align=left;fontSize=15;spacingLeft=7;arcSize=4;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="304" width="420" height="206" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;b&gt;Planning and Roadmap&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Product Vision&lt;/li&gt;&lt;li&gt;Key Milestones&lt;/li&gt;&lt;li&gt;Timelines and Deadlines&lt;/li&gt;&lt;li&gt;Feature Prioritization&lt;/li&gt;&lt;li&gt;Release Plans&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;shadow=0;fontFamily=Verdana;verticalAlign=top;align=left;fontSize=15;spacingLeft=7;arcSize=4;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="590" width="420" height="170" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
