@@ -49,16 +49,26 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install Dependencies
-      run: npm i
+      run: |
+        cd electron-app
+        npm i
 
     - name: Check lint
-      run: npm run lint
+      run: |
+        cd electron-app
+        npm run lint
 
     - name: Run headless unit test
-      run: npm run test
+      run: |
+        cd electron-app
+        npm run test
 
     - name: Run headless e2e test
-      run: npm run e2e
+      run: |
+        cd electron-app
+        npm run e2e
 
     - name: Build the app
-      run: npm run electron:build
+      run: |
+        cd electron-app
+        npm run electron:build
