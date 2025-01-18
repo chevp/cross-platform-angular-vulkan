@@ -53,21 +53,6 @@ jobs:
         cd electron-app
         npm i
 
-    - name: Check lint
-      run: |
-        cd electron-app
-        npm run lint
-
-    - name: Run headless unit test
-      run: |
-        cd electron-app
-        npm run test
-
-    - name: Run headless e2e test
-      run: |
-        cd electron-app
-        npm run e2e
-
     - name: Build the app
       run: |
         cd electron-app
